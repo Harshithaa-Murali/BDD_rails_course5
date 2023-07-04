@@ -70,8 +70,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem 'guard','~> 2.14.0'
-  gem 'guard-rspec','~> 4.7.2'
-  gem 'guard-cucumber','~> 2.1.2'
+  gem 'guard','~>2.16.1'
+  gem 'guard-rspec','~>4.7.2'
+  gem 'guard-cucumber','~>2.1.2'
 end
 
