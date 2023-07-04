@@ -12,6 +12,9 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
+gem'bootstrap-sass','~>3.3.6'
+gem 'autoprefixer-rails','~>6.3.7'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -67,5 +70,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'guard','~> 2.14.0'
+  gem 'guard-rspec','~> 4.7.2'
+  gem 'guard-cucumber','~> 2.1.2'
 end
 
